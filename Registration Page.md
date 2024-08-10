@@ -28,7 +28,7 @@ This Cloud Page contains an AMPscript form that captures user registration detai
 ```
 ### Resources
 
-Click on the link for `https://mc86w70sbqmb0kccf2-2xvwcn024.pub.sfmc-content.com/hosdoo0hou3` Cloud pagge.
+Visit the [Registration Page](https://mc86w70sbqmb0kccf2-2xvwcn024.pub.sfmc-content.com/hosdoo0hou3) for more information.
     
     
   
