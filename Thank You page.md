@@ -10,5 +10,5 @@ This Cloud Page is used to thank users for completing the registration form. It 
 ```
 ### Resources
 
-Visit the `[Thank You Page](https://mc86w70sbqmb0kccf2-2xvwcn024.pub.sfmc-content.com/kr2zar0nhhq)` for more information.
+Visit the [Thank You Page](https://mc86w70sbqmb0kccf2-2xvwcn024.pub.sfmc-content.com/kr2zar0nhhq) for more information.
 
