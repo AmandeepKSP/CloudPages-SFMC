@@ -9,16 +9,11 @@ This Cloud Page contains an AMPscript form that captures user registration detai
     SET @firstName = RequestParameter('firstName')
     SET @lastName = RequestParameter('lastName')
     SET @email = RequestParameter('email')
-
-
     INSERTDE("Registration Page", "First Name", @firstName, "Last Name", @lastName, "Email", @email)
-
- 
     Redirect("https://mc86w70sbqmb0kccf2-2xvwcn024.pub.sfmc-content.com/kr2zar0nhhq")
   ENDIF
 ]%%
-  
-    <form method="post">
+        <form method="post">
         <input type="hidden" name="submitted" value="true">
             <label for="firstName">First Name</label><br>
             <input type="text" name="firstName" required=""><br>
@@ -30,7 +25,7 @@ This Cloud Page contains an AMPscript form that captures user registration detai
             <input type="email" name="email" required=""><br>
 
             <input type="submit" value="Register">
-    </form>
-    ```html
+         </form>
+    ```
   
 
