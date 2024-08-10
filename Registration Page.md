@@ -3,6 +3,7 @@
 This Cloud Page contains an AMPscript form that captures user registration details and inserts them into a Data Extension. After the form submission, users are redirected to a thank you page.
 
 #### Soltuion
+
 ```html
 %%[
   IF RequestParameter("submitted") == "true" THEN
@@ -17,15 +18,18 @@ This Cloud Page contains an AMPscript form that captures user registration detai
         <input type="hidden" name="submitted" value="true">
             <label for="firstName">First Name</label><br>
             <input type="text" name="firstName" required=""><br>
-
             <label for="lastName">Last Name</label><br>
             <input type="text" name="lastName" required=""><br>
-
             <label for="email">Email</label><br>
             <input type="email" name="email" required=""><br>
-
             <input type="submit" value="Register">
          </form>
-    ```
+         
+```
+### Resources
+
+Click on the link for `https://mc86w70sbqmb0kccf2-2xvwcn024.pub.sfmc-content.com/hosdoo0hou3` Cloud pagge.
+    
+    
   
 
