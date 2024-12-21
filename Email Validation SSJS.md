@@ -1,4 +1,9 @@
-## Email Validation SSJS 
+## Email Validation SSJS
+
+This script demonstrates how to validate an email address using SSJS (Server-Side JavaScript) in Salesforce Marketing Cloud. It collects form data, processes an OAuth token request, and validates the email address by making an API request to an email validation service.
+
+### Script
+
 
 ```Javascript
 %%[
@@ -20,9 +25,9 @@ if (Variable.GetValue("@submitted") === "true") {
     Write("<p>Form submitted. Processing...</p>");
 
     // Set up the token endpoint URL
-    var url = "https://mc86w70sbqmb0kccf2-2xvwcn024.auth.marketingcloudapis.com/v2/token";
+    var url = "XXXX/v2/token";
     // Prepare the payload for token request
-    var payload = '{"grant_type": "client_credentials","client_id": "jhte9pgadnhw95r0mfjrubk2","client_secret": "1CVu2KBjolKljJuLX58Hnsgw"}';
+    var payload = '{"grant_type": "client_credentials","client_id": "XXX","client_secret": "XXX"}';
     // Make a POST request to get the access token
     var responseResult = HTTP.Post(url, "application/json", payload);
     
@@ -112,3 +117,8 @@ if (Variable.GetValue("@submitted") === "true") {
     <input type="submit" value="Submit">
 </form>
 ```
+###
+Replace the placeholder values:
+
+* XXXX/v2/token: Replace XXXX with your authentication URL.
+* XXX: Replace with your Client ID and Client Secret.
