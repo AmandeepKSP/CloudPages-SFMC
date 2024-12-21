@@ -117,8 +117,7 @@ if (Variable.GetValue("@submitted") === "true") {
     <input type="submit" value="Submit">
 </form>
 ```
-###
-Replace the placeholder values:
+### Replace the placeholder values:
 
 * XXXX/v2/token: Replace XXXX with your authentication URL.
 * XXX: Replace with your Client ID and Client Secret.
