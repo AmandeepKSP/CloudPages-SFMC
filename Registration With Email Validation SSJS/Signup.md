@@ -161,3 +161,8 @@ if (Variable.GetValue("@submitted") === "true") {
 
 * XXXX/v2/token: Replace XXXX with your authentication URL.
 * XXX: Replace with your Client ID and Client Secret.
+
+### Resources
+
+Visit the [Signup Page](https://mc86w70sbqmb0kccf2-2xvwcn024.pub.sfmc-content.com/cwhvkyu1lh4) for more information.
+
